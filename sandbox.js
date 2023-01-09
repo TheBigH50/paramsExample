@@ -38,4 +38,4 @@ function sumArr(arr) {
   console.log(`Sum: ${sum.length}`);
 }
 
-sumArr(numbers);
+sumArr(numbers); // Logs ==> Sum: 22
