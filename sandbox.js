@@ -28,7 +28,7 @@ console.log(
 
 /*
 Use the following two variables to write a function that sums the
-numbers array.  Do not use +, -, *, or /.
+numbers array.  Do not use +, +=, -=, -, *, or /.
 */
 
 let numbers = [5, 7, 6, 3, 1];
