@@ -26,6 +26,11 @@ console.log(
 );
 // Logs ==> ERROR! Uncaught ReferenceError: paramOne is not defined
 
+/*
+Use the following two variables to write a function that sums the
+numbers array.  Do not use +, -, *, or /.
+*/
+
 let numbers = [5, 7, 6, 3, 1];
 let sum = [];
 
