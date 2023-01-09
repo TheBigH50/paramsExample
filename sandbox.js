@@ -25,3 +25,17 @@ console.log(
   `These variables no longer exist after the function, paramOne: ${paramOne} + param2: ${param2} = combination: ${combination}`
 );
 // Logs ==> ERROR! Uncaught ReferenceError: paramOne is not defined
+
+let numbers = [5, 7, 6, 3, 1];
+let sum = [];
+
+function sumArr(arr) {
+  for (let i = 0; i < arr.length; i++) {
+    for (let j = 1; j <= arr[i]; j++) {
+      sum.push(1);
+    }
+  }
+  console.log(`Sum: ${sum.length}`);
+}
+
+sumArr(numbers);
